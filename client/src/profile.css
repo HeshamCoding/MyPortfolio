@@ -1,0 +1,13 @@
+/* Keeps the profile picture inside its frame */
+.profile-card {
+    overflow: hidden;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center 35%;
+    border-radius: 23px;
+}
